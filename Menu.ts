@@ -33,7 +33,7 @@ export function main() {
 
         if (opcao == 9) {
             console.log(colors.fg.greenstrong, 
-                "\nBanco do Brazil com Z - O seu Futuro começa aqui!");
+                "\nKHAN BANK - EXPANDINDO SEU CAPITAL DESDE 1929!");
             sobre();
             console.log(colors.reset, "");
             process.exit(0);
@@ -102,9 +102,9 @@ export function main() {
 /* Função com os dados da pessoa desenvolvedora */
 function sobre(): void {
     console.log("\n*****************************************************");
-    console.log("Projeto Desenvolvido por: ");
+    console.log("Projeto Desenvolvido por: Paulo Dante Coelho Neto");
     console.log("Generation Brasil - generation@generation.org");
-    console.log("github.com/conteudoGeneration");
+    console.log("https://github.com/dantekhann/ProjetoBanco");
     console.log("*****************************************************");
 }
 
