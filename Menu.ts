@@ -16,11 +16,11 @@ let opcao: number;
 //     conta.visualizar();
 
 // const conta1: Conta = new Conta(2, 123, 1, "Voljin Lancanegra", 20000.0);
-//     conta1.visualizar();
-//     conta1.sacar(15000.0);
-//     conta1.visualizar();
-//     conta1.depositar(5000.0);
-//     conta1.visualizar();
+//     conta.visualizar();
+//     conta.sacar(15000.0);
+//     conta.visualizar();
+//     conta.depositar(5000.0);
+//     conta.visualizar();
 
 // const contacorrente: ContaCorrente = new ContaCorrente(3, 456, 1, "Garrosh Grito Infernal", 50000.0, 70000.0);
 //       contacorrente.visualizar();
