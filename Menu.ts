@@ -1,27 +1,11 @@
 import readlinesync = require("readline-sync");
 import { colors } from './src/util/Colors';
-import { Conta } from "./src/util/model/Conta";
 import { ContaCorrente } from "./src/util/model/ContaCorrente";
 import { ContaPoupanca } from "./src/util/model/ContaPopuanca";
 
-let opcao: number;
-
-
-//CONTAS TESTE
 export function main() {
-const conta: Conta = new Conta(1, 123, 1, "Thrall Martelo da Perdição", 10000.0);
-    conta.visualizar();
-    conta.sacar(10500.0);
-    conta.visualizar();
-    conta.depositar(5000.0);
-    conta.visualizar();
 
-const conta1: Conta = new Conta(2, 123, 1, "Voljin Lancanegra", 20000.0);
-    conta1.visualizar();
-    conta1.sacar(15000.0);
-    conta1.visualizar();
-    conta1.depositar(5000.0);
-    conta1.visualizar();
+let opcao: number;
 
 const contacorrente: ContaCorrente = new ContaCorrente(3, 456, 1, "Garrosh Grito Infernal", 50000.0, 70000.0);
       contacorrente.visualizar();
@@ -30,12 +14,12 @@ const contacorrente: ContaCorrente = new ContaCorrente(3, 456, 1, "Garrosh Grito
       contacorrente.depositar(20000.0);
       contacorrente.visualizar();
 
-const contacorrente: ContaCorrente = new ContaCorrente(4, 456, 1, "Lich King", 100000, 50000.0);
-      contacorrente.visualizar();
-      contacorrente.sacar(70000.0);
-      contacorrente.visualizar();
-      contacorrente.depositar(200000.0);
-      contacorrente.visualizar();
+// const contacorrente: ContaCorrente = new ContaCorrente(4, 456, 1, "Lich King", 100000, 50000.0);
+//       contacorrente.visualizar();
+//       contacorrente.sacar(70000.0);
+//       contacorrente.visualizar();
+//       contacorrente.depositar(200000.0);
+//       contacorrente.visualizar();
 
 const contapoupanca: ContaPoupanca = new ContaPoupanca(5, 789, 2, "Sylvanas Correventos", 90000.0, 300.0);
       contapoupanca.visualizar();
@@ -43,15 +27,14 @@ const contapoupanca: ContaPoupanca = new ContaPoupanca(5, 789, 2, "Sylvanas Corr
       contapoupanca.visualizar();
       contapoupanca.depositar(10000.0);
       contapoupanca.visualizar();
-    let opcao: number;
 
-const contapoupanca: ContaPoupanca = new ContaPoupanca(6, 789, 2, "Ragnaros", 900000.0, 30000.0);
-contapoupanca.visualizar();
-contapoupanca.sacar(500000.0);
-    contapoupanca.visualizar();
-    contapoupanca.depositar(100000.0);
-    contapoupanca.visualizar();
-  let opcao: number;
+// const contapoupanca: ContaPoupanca = new ContaPoupanca(6, 789, 2, "Ragnaros", 900000.0, 30000.0);
+// contapoupanca.visualizar();
+// contapoupanca.sacar(500000.0);
+//     contapoupanca.visualizar();
+//     contapoupanca.depositar(100000.0);
+//     contapoupanca.visualizar();
+//   let opcao: number;
 
     while (true) {
 
@@ -144,7 +127,6 @@ contapoupanca.sacar(500000.0);
                 break;
         }
     }
-
 }
 
 function sobre(): void {
