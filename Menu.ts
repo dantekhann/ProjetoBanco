@@ -36,7 +36,7 @@ contas.listarTodas();
         console.log("                                                     ");
         console.log("*****************************************************");
         console.log("                                                     ");
-        console.log("            1 - Criar Conta                          ");
+        console.log("            1 - Cadastrar Conta                          ");
         console.log("            2 - Listar todas as Contas               ");
         console.log("            3 - Buscar Conta por Numero              ");
         console.log("            4 - Atualizar Dados da Conta             ");
@@ -64,7 +64,7 @@ contas.listarTodas();
         switch (opcao) {
             case 1:
                 console.log(colors.fg.redstrong, 
-                    "\n\nCriar Conta\n\n", colors.reset);
+                    "\n\nCadastrar Conta\n\n", colors.reset);
 
                 console.log("Digite o número da agência: ");
                 agencia = readlinesync.questionInt("");
