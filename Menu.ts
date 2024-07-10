@@ -68,11 +68,11 @@ export function main() {
       "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$"
     );
     console.log("                                                     ");
-    console.log("                    BANCO DA HORDA                    ");
+    console.log("                    BANCO DA HORDA                   ");
     console.log("                                                     ");
     console.log("*****************************************************");
     console.log("                                                     ");
-    console.log("            1 - Cadastrar Conta                          ");
+    console.log("            1 - Cadastrar Conta                      ");
     console.log("            2 - Listar todas as Contas               ");
     console.log("            3 - Buscar Conta por Numero              ");
     console.log("            4 - Atualizar Dados da Conta             ");
@@ -265,7 +265,7 @@ export function main() {
         keyPress();
         break;
 
-      case 7:
+      case 7://Deposito
         console.log(colors.fg.redstrong, "\nDeposito\n\n", colors.reset);
 
         console.log("Digite o numero da conta: ");
@@ -279,7 +279,7 @@ export function main() {
         keyPress();
         break;
 
-      case 8:
+      case 8://Transferência
         console.log(
           colors.fg.redstrong,
           "\n\nTransferência entre Contas\n\n",
